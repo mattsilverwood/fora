@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/mattsilverwood/fora/webserver"
+)
 
 func main() {
-	fmt.Println("Fora")
+	webserver.RunForaServer()
 }
